@@ -15,11 +15,38 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+button {
+    color: #fff;
+    border: #000;
+    background-color: #000;
+    width: 140px;
+    padding: 10px 0;
+    ;
+}
+
+button[type=submit] {
+    width: 301;
+}
+
+button:hover {
+    background-color: #663d15;
+}
+
+input {
+    width: 140px;
+    border: 1px solid #000;
+    background-color: #f9f6f3;
+    padding: 15px 0;
+    color: #716f6e;
+    font-weight: 700;
 }
 
 .visually-hidden {
@@ -51,6 +78,11 @@ img {
 .user-navigation a:active {
     color: #fff;
     border-bottom: 2px solid #fff;
+}
+
+section {
+    background-color: #f3f0ed;
+    color: #000;
 }
 
 .feature-list {
